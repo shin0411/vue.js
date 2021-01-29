@@ -23,14 +23,14 @@
           <a href="" class="common-btn mission-btn">ミッション詳細</a>
         </div>
         <div class="mission-img">
-          <img src="img/mission-img.jpg" alt="" />
+          <img src="./assets/img/mission-img.jpg" alt="" />
         </div>
       </div>
       <div class="service">
         <h2 class="service-title section-title">service</h2>
         <div class="service-content">
           <div class="service-img">
-            <img src="img/service2.jpg" alt="" />
+            <img src="./assets/img/service2.jpg" alt="" />
           </div>
           <div class="service-content_inner">
             <h3 class="mgb-15">web制作事業</h3>
@@ -43,7 +43,7 @@
         </div>
         <div class="service-content">
           <div class="service-img service-img_second">
-            <img src="img/service1.jpg" alt="" />
+            <img src="./assets/img/service1.jpg" alt="" />
           </div>
           <div class="service-content_inner service-content_inner-second">
             <h3 class="mgb-15">web制作事業</h3>
@@ -344,11 +344,11 @@ input, select {
 }
 
 .company-img {
-  background: url(/src/assets/img/company.jpeg) center/cover no-repeat;
+  background: url(./assets/img/company.jpeg) center/cover no-repeat;
 }
 
 .recruit-img {
-  background: url(/src/assets/img/recruit.jpg) center/cover no-repeat;
+  background: url(./assets/img/recruit.jpg) center/cover no-repeat;
 }
 
 .company-title {
@@ -395,7 +395,7 @@ input, select {
 /*        contact         */
 /*------------------------*/
 .contact {
-  background: url(/src/assets/img/contact-bg.jpg) center/cover no-repeat;
+  background: url(./assets/img/contact-bg.jpg) center/cover no-repeat;
   padding: 10%;
 }
 
@@ -418,5 +418,55 @@ input, select {
   background: none;
   border: 1px solid #fff;
   color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .catchcopy {
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+  .news {
+    width: 100%;
+  }
+  .mission-content {
+    padding: 10% 0;
+    margin: 0 auto;
+  }
+  .service-content_inner {
+    width: 60%;
+    left: 10%;
+  }
+  .service-img {
+    width: 70%;
+    margin-left: 30%;
+  }
+  .service-img_second {
+    margin: 0 30% 0 0;
+  }
+  .service-content_inner-second {
+    left: 30%;
+  }
+  .service-content {
+    margin: 0 auto;
+  }
+  .service-content_inner {
+    width: 90%;
+    position: inherit;
+    background: rgba(255, 255, 255, 0.8);
+    left: 5%;
+  }
+  .service-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .recruit-company_size {
+    width: 100%;
+  }
+  .faq-title {
+    font-size: 30px;
+  }
 }
 </style>
