@@ -11,7 +11,7 @@
           <li><a href="#">price</a></li>
           <li><a href="#">contact</a></li>
         </ul>
-       </nav>
+      </nav>
     </div>
     <div id="hamburger" @click="hamburger()" :class="{'active':isClass}">
       <span></span>
@@ -48,6 +48,7 @@ export default {
 </script>
 
 <style scoped>
+
 #hamburger {
   display: none;
 }

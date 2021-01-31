@@ -123,7 +123,12 @@ time, mark, audio, video {
   background:transparent;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  color: #333333;
   line-height:1;
 }
 
@@ -152,6 +157,21 @@ a {
   font-size:100%;
   vertical-align:baseline;
   background:transparent;
+  color: #333333;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 /* change colours to suit your needs */
@@ -167,6 +187,10 @@ mark {
   color:#000;
   font-style:italic;
   font-weight:bold;
+}
+
+.mgb-15 {
+  margin-bottom: 15px;
 }
 
 del {
@@ -195,6 +219,26 @@ hr {
 
 input, select {
   vertical-align:middle;
+}
+
+.common-btn {
+  display: block;
+  width: 130px;
+  height: 40px;
+  line-height: 40px;
+  background: #fff;
+  padding: 0 20px;
+  color: #000;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 40px;
+  line-height: 1;
+}
+
+.section-title span {
+  font-size: 20px;
 }
 
 /* ------------------- */
