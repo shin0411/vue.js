@@ -232,24 +232,15 @@ input, select {
   text-align: center;
 }
 
-.section-title {
-  font-size: 40px;
-  line-height: 1;
-}
-
-.section-title span {
-  font-size: 20px;
-}
-
 /* ------------------- */
 /* ここからがcssの部分 */
 /* ------------------- */
 #firstview {
-  height: 100%;
-  background: url(/src/assets/img/eyecatch.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
+  background: url(./assets/img/eyecatch.jpg) no-repeat;
+  height: 900px;
 }
 
 .catchcopy {
